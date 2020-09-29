@@ -2,7 +2,7 @@
 
 import os
 import csv
-#budget_data = os.path.join('c:', 'Users', 'joelc', 'Documents', 'python-challenge' , 'PyBank', 'Resources', 'budget_data.csv')
+
 election_data = os.path.join('Resources', 'election_data.csv')
 
 cand_votes= {}
@@ -32,5 +32,5 @@ for key in cand_votes.keys():
     if cand_votes[key]==max(cand_votes.values()):
         winner=key
 
-print(winner)    
+print("Winner:"+winner)    
 

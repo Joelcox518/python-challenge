@@ -6,7 +6,7 @@ import csv
 budget_data = os.path.join('Resources', 'budget_data.csv')
 #Total number of Months included in Data Set
  
-# Months= ['Jan','Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
 total=0
 total_net=0
 net_change_list=[]
